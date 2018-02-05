@@ -1,0 +1,29 @@
+{
+  "name": "Proyecto-backend",
+  "version": "1.0.0",
+  "description": "Api RESTful de el proyecto del curso de Angular 4 avanzado",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Robles",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "email-verification": "^0.4.6",
+    "express": "^4.15.3",
+    "express-session": "^1.15.6",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.11.3",
+    "nodemailer": "^4.4.1"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.6.7",
+    "nodemon": "^1.11.0"
+  }
+}
